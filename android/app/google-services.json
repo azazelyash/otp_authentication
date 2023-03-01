@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "219714013328",
+    "project_id": "video-recorder-b14e9",
+    "storage_bucket": "video-recorder-b14e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219714013328:android:90c5665de6d53c1d117015",
+        "android_client_info": {
+          "package_name": "com.example.otp_and_live_location"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219714013328-0mhgglrsq64n72535unjhsh5l9u688k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfmLF486_2OSddFuUK9B96W0XSIdf2AXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219714013328-0mhgglrsq64n72535unjhsh5l9u688k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -137,9 +137,12 @@ class _MyPasswordState extends State<MyPassword> {
                               await FirebaseAuth.instance.verifyPhoneNumber(
                                 phoneNumber: MyPassword.phoneNumber,
                                 verificationCompleted:
-                                    (PhoneAuthCredential credential) {},
-                                verificationFailed:
-                                    (FirebaseAuthException e) {},
+                                    (PhoneAuthCredential credential) {
+                                  print("done");
+                                },
+                                verificationFailed: (FirebaseAuthException e) {
+                                  print("error");
+                                },
                                 codeSent:
                                     (String verificationId, int? resendToken) {
                                   setState(() {
